@@ -20,6 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 15s
+  targetNamespace: team-1
   path: ./yaml
   prune: true
   sourceRef:
