@@ -21,7 +21,7 @@ metadata:
 spec:
   interval: 15s
   targetNamespace: team-1
-  path: "./yaml"
+  path: ./
   prune: true
   sourceRef:
     kind: GitRepository
