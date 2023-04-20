@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 15s
-  path: ./
+  path: ./yaml
   prune: true
   sourceRef:
     kind: GitRepository
